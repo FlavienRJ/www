@@ -1,0 +1,299 @@
+@font-face {
+	font-family: "Ubuntu"; 	
+	src: url('ubuntu.ttf'); 
+}
+
+header {
+	display: inline-block;
+	width: 98%;
+	padding: 2px;
+	font-style: normal;
+}
+
+div {
+	display: inline-block;
+	width: 98%;
+	padding: 2px;
+	font-style: normal;
+}  
+
+body {
+	background: url(bg-minecraft.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: black;
+	font-family: "Ubuntu";
+}
+
+.log{
+	position: absolute;
+	left:17%;
+	top: 150px;
+	width:60%;
+	height:490px;
+	overflow:auto;
+	color: black;
+	background-color: white;
+	padding: 2px;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+	border-radius: 7px;
+	padding: 10px;
+	font-family: "Ubuntu";
+}
+
+
+.boutonplus{
+	position: relative;
+	vertical-align: top;
+	width: 16%;
+	height: 60px;
+	padding: 0;
+	font-size: 22px;
+	color: white;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	background: #2c3e50;
+	border: 0;
+	border-bottom: 2px solid #22303f;
+	cursor: pointer;
+	-webkit-box-shadow: inset 0 -2px #22303f;
+	box-shadow: inset 0 -2px #22303f;
+	font-family: "Ubuntu";
+
+}
+
+.boutonplus:hover{
+	top: 1px;
+  	outline: none;
+  	-webkit-box-shadow: none;
+  	box-shadow: none;
+  	color: orange;
+  	font-family: "Ubuntu";
+}
+
+.boutoninscription{
+	position: relative;
+	vertical-align: top;
+	width: 16%;
+	height: 60px;
+	padding: 0;
+	font-size: 22px;
+	color: white;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	background: #2c3e50;
+	border: 0;
+	border-bottom: 2px solid #22303f;
+	cursor: pointer;
+	-webkit-box-shadow: inset 0 -2px #22303f;
+	box-shadow: inset 0 -2px #22303f;
+	font-family: "Ubuntu";
+}
+
+.boutoninscription:hover{
+	top: 1px;
+  	outline: none;
+  	-webkit-box-shadow: none;
+  	box-shadow: none;
+  	color: orange;
+  	font-family: "Ubuntu";
+}
+
+.boutonconnexion{
+	position: relative;
+	vertical-align: top;
+	width: 16%;
+	height: 60px;
+	padding: 0;
+	font-size: 22px;
+	color: white;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	background: #2c3e50;
+	border: 0;
+	border-bottom: 2px solid #22303f;
+	cursor: pointer;
+	-webkit-box-shadow: inset 0 -2px #22303f;
+	box-shadow: inset 0 -2px #22303f;
+	font-family: "Ubuntu";
+}
+
+.boutonconnexion:hover{
+	top: 1px;
+  	outline: none;
+  	-webkit-box-shadow: none;
+  	box-shadow: none;
+  	color: orange;
+  	font-family: "Ubuntu";
+}
+
+.Start{
+	position: relative;
+	vertical-align: top;
+	width: 16%;
+	height: 60px;
+	padding: 0;
+	font-size: 22px;
+	color: white;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	background: #2c3e50;
+	border: 0;
+	border-bottom: 2px solid #22303f;
+	cursor: pointer;
+	-webkit-box-shadow: inset 0 -2px #22303f;
+	box-shadow: inset 0 -2px #22303f;
+	font-family: "Ubuntu";
+}
+
+.Start:hover{
+	top: 1px;
+  	outline: none;
+  	-webkit-box-shadow: none;
+  	box-shadow: none;
+  	color: orange;
+  	font-family: "Ubuntu";
+}
+
+.Envoyer{
+	position: relative;
+	vertical-align: top;
+	width: 16%;
+	height: 60px;
+	padding: 0;
+	font-size: 22px;
+	color: white;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	background: #2c3e50;
+	border: 0;
+	border-bottom: 2px solid #22303f;
+	cursor: pointer;
+	-webkit-box-shadow: inset 0 -2px #22303f;
+	box-shadow: inset 0 -2px #22303f;
+	font-family: "Ubuntu";
+}
+
+.Envoyer:hover{
+	top: 1px;
+  	outline: none;
+  	-webkit-box-shadow: none;
+  	box-shadow: none;
+  	color: orange;
+  	font-family: "Ubuntu";
+}
+
+.Info{
+	position: relative;
+	vertical-align: top;
+	width: 16%;
+	height: 60px;
+	padding: 0;
+	font-size: 22px;
+	color: white;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	background: #2c3e50;
+	border: 0;
+	border-bottom: 2px solid #22303f;
+	cursor: pointer;
+	-webkit-box-shadow: inset 0 -2px #22303f;
+	box-shadow: inset 0 -2px #22303f;
+	font-family: "Ubuntu";
+}
+
+.Info:hover{
+	top: 1px;
+  	outline: none;
+  	-webkit-box-shadow: none;
+  	box-shadow: none;
+  	color: orange;
+  	font-family: "Ubuntu";
+}
+
+.PlayerOnline{
+	position: relative;
+	vertical-align: top;
+	width:16%;
+	height:60px;
+	padding: 0;
+	font-size: 22px;
+	color: white;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	background:#2c3e50;
+	border: 0;
+	border-bottom: 2px solid #22303f;
+	-webkit-box-shadow: inset 0 -2px #22303f;
+	box-shadow: inset 0 -2px #22303f;
+	font-family: "Ubuntu";
+}
+
+.EtatServeur{
+	position: relative;
+	vertical-align: top;
+	width:16%;
+	height:60px;
+	padding: 0;
+	font-size: 22px;
+	color: white;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	background: #008A2E;
+	border: 0;
+	border-bottom: 2px solid #006120;
+	-webkit-box-shadow: inset 0 -2px #006120;
+	box-shadow: inset 0 -2px #006120;
+	font-family: "Ubuntu";
+}
+
+.Heure{
+	position: relative;
+	vertical-align: top;
+	width:32%;
+	height:60px;
+	padding: 0;
+	font-size: 22px;
+	color: white;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	background:#2c3e50;
+	border: 0;
+	border-bottom: 2px solid #22303f;
+	-webkit-box-shadow: inset 0 -2px #22303f;
+	box-shadow: inset 0 -2px #22303f;
+	font-family: "Ubuntu";
+}
+
+.Commande{
+	position: relative;
+	vertical-align: top;
+	width:32%;
+	height:60px;
+	padding: 0;
+	font-size: 10px;
+	color: white;
+	text-align: left;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	background:#2c3e50;
+	border: 0;
+	border-bottom: 2px solid #22303f;
+	-webkit-box-shadow: inset 0 -2px #22303f;
+	box-shadow: inset 0 -2px #22303f;
+	font-family: "Ubuntu";
+}
+
+#cmd {
+	position: absolute;
+	left: 35%;
+	top: 85px;
+	width: 350px;
+	height:30px;
+	border: 1px solid #000000; 
+	text-align: left;
+	font-family: "Ubuntu";
+}
+
